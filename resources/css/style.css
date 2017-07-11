@@ -7,3 +7,14 @@ h1, h2{
 h3{
   color: seagreen;
 }
+
+.main-layout {
+  display: flex;
+}
+
+header,
+footer{
+  padding: 20px;
+  background: #gray;
+  color: black;
+}
