@@ -10,6 +10,8 @@ h3{
 
 .main-layout {
   display: flex;
+  flex-direction: column;
+  height: calc(100vh-300px);
 }
 
 header,
@@ -17,4 +19,10 @@ footer{
   padding: 20px;
   background: #gray;
   color: black;
+}
+
+body{
+  display: flex;
+  flex-grow: 1;
+  background: navy;
 }
